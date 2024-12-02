@@ -1,4 +1,4 @@
-- name: sample ansible plybook
+- name: start frontend
   hosts: all
   become: yes
   task:
