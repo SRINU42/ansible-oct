@@ -1,7 +1,7 @@
 - name: start frontend
   hosts: all
   become: yes
-  task:
+  tasks:
     - name: Install the latest version of Apache
       ansible.builtin.yum:
         name: httpd
