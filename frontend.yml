@@ -2,7 +2,8 @@
   hosts: all
   become: true
   tasks:
-    - name: Install the latest version of Apache
+    - name: Install the latest version of Nginx
       ansible.builtin.yum:
         name: nginx
-        state: latest
+        state: installed
+        
